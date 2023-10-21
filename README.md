@@ -24,26 +24,30 @@ Backend:
 
 ## Features
 
-### [Name of Feature 1]
+### User login
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+Allow users to login to view and edit their trips
 
 [gif goes here]
 
-### [Name of Feature 3]
+### Search and Plan
 
-[short description goes here]
+Allow users to search for locations by keyword, and add them to a dream trip log. Also filter by season to see areas at their best season and time.
 
 [gif goes here]
 
-### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+### Share,Edit, and more
 
+Allow users to save, edit, and share their public trip plans with others, and keep others to themselves.
+
+[gif goes here]
+
+### Stretch Goals
+### Weather Chatbot
+
+Have a chatbot to ask about weather in your chosen locations so you can plan outfits accordingly.
+
+[gif goes here]
 ## Installation Instructions
 
 [instructions go here]
