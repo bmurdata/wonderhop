@@ -19,9 +19,9 @@ Sites such as Trello, WonderLog, and Trip Advisor. We like how they make finding
 ## Tech Stack
 
 Frontend:
-
+  React, HTML, CSS, Material UI, PicoCSS.
 Backend:
-
+  Node, Express, Railway, location/vacation API.
 ## Features
 
 ### User login
