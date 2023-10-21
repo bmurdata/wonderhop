@@ -13,19 +13,19 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 - [x] In `readme.md`: complete the **Description and Purpose** section
 - [x] In `readme.md`: complete the **Inspiration** section
 - [x] In `readme.md`: list all features you intend to include in your app (in future units, you will check off features as you complete them and add GIFs demonstrating the features)
-- [ ] In `planning/user_stories.md`: add all user stories
+- [x] In `planning/user_stories.md`: add all user stories
 - [ ] In this document, complete the **Reflection** section below
 
 ## Reflection
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Met with my groupmate, came up with ideas and coordinated on a plan of action.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Limiting scope, determining what is needed.
 
 ### 3. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+APIs or sources of data to use, making the UI appealing, and possibly building a weather or vacation chatbot.
