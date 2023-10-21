@@ -26,7 +26,7 @@ Backend:
 
 ### User login
 
-Allow users to login to view and edit their trips
+Allow users to login with their email account to view and edit their trips.
 
 [gif goes here]
 
@@ -38,7 +38,7 @@ Allow users to search for locations by keyword, and add them to a dream trip log
 
 ### Share,Edit, and more
 
-Allow users to save, edit, and share their public trip plans with others, and keep others to themselves.
+Allow users to save, edit, and share their public trip plans with others, and also keep trip plans to themselves.
 
 [gif goes here]
 
@@ -51,3 +51,5 @@ Have a chatbot to ask about weather in your chosen locations so you can plan out
 ## Installation Instructions
 
 [instructions go here]
+
+TBD.
