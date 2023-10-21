@@ -20,6 +20,7 @@ Sites such as WonderLog, and Trip Advisor. We like how they make vacation planni
 
 Frontend:
   React, HTML, CSS, Material UI, PicoCSS.
+  
 Backend:
   Node, Express, Railway, location/vacation API.
 ## Features
