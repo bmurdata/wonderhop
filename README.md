@@ -15,7 +15,7 @@ WonderHop is here to make vacation planning a breeze. Search for your next vacat
 Most travel websites cater to those who know where they are going, or want to go, and get them there cheaply and efficently. We want to focus on the exploration of travel, offering a go from interests to destination in no time at all.
 ### Inspiration
 
-Sites such as Trello, WonderLog, and Trip Advisor. We like how they make finding vacation planning easier when you have a place in mind.
+Sites such as WonderLog, and Trip Advisor. We like how they make finding vacation planning easier when you have a place in mind.
 ## Tech Stack
 
 Frontend:
