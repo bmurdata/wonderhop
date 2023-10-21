@@ -1,8 +1,8 @@
-# [your app name here]
+# WonderHop
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Brian Murphy and Zamirah Morgan
 
 🔗 Link to deployed app:
 
@@ -10,12 +10,12 @@ Designed and developed by: [your names here]
 
 ### Description and Purpose
 
-[text goes here]
+WonderHop is here to make vacation planning a breeze. Search for your next vacation spot, plan an iterinary, and get weather forecasts all in one place. Save your dream vacations for later, edit, and share them with friends and colleagues. WonderHop is your comprehensive search tool to travel and exploration.
 
+Most travel websites cater to those who know where they are going, or want to go, and get them there cheaply and efficently. We want to focus on the exploration of travel, offering a go from interests to destination in no time at all.
 ### Inspiration
 
-[text goes here]
-
+Sites such as Trello, WonderLog, and Trip Advisor. We like how they make finding vacation planning easier when you have a place in mind.
 ## Tech Stack
 
 Frontend:
