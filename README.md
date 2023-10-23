@@ -43,6 +43,18 @@ Allow users to save, edit, and share their public trip plans with others, and al
 
 [gif goes here]
 
+### Email notification
+
+Allow users to recieve notifications in their emails of trip reminders, and their trip details. 
+
+[gif goes here]
+
+### Expense tracking
+
+Allow users to track their budget and split cost if shared with one another. 
+
+[gif goes here]
+
 ### Stretch Goals
 ### Weather Chatbot
 
