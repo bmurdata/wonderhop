@@ -27,4 +27,4 @@ Trying to keep the wireframes as straightforward as possible when sharing at lea
 ### 3. What additional support will you need in upcoming units as you continue to work on your final project?
 
 [👉🏾👉🏾👉🏾 your answer here]
-I believe we will need additional support for the source of data, the time frame of making the UI look appealing, and the functionality of the weather chatbot. 
+I believe we will need additional support for the source of data, the time frame of making the UI look appealing, the UX behavior on the site, and the functionality of the weather chatbot. 
