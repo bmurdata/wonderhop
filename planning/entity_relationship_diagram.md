@@ -1,15 +1,18 @@
 # Entity Relationship Diagram
 
-Reference the Creating an Entity Relationship Diagram final project guide in the course portal for more information about how to complete this deliverable.
+## Tables
 
-## Create the List of Tables
-
-[👉🏾👉🏾👉🏾 List each table in your diagram]
+- Users: List of users who choose to register, may link to GitHub as an option
+- UserPreferences: List of saved user preferences, used to make searching easier
+  - Example: budget, location, or interest can be prepopulated in the search form using a prefilled option
+- SavedTrips: Each trip, serves as the parent node. Can add trip destinations or stops.
+  -   Example: My trip around the world
+- TripStops: Individual trip locations or stops
+  -   Example: Berlin, NYC, Tokoyo, etc.
 
 ## Add the Entity Relationship Diagram
 
-[👉🏾👉🏾👉🏾 Include an image or images of the diagram below. You may also wish to use the following markdown syntax to outline each table, as per your preference.]
-
+<img src="https://github.com/bmurdata/wonderhop/blob/main/images/ERD_web103.png">
 | Column Name | Type | Description |
 |-------------|------|-------------|
 | id | integer | primary key |
