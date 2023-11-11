@@ -23,7 +23,7 @@ Creating the logo once instead of on multiple pages (ex: login and register), am
 
 ### Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
 
-Not all the tasks in the sprint plan for this week is complete, we will priorize the remaning tasks on our list by scheduling and checking in on our status for tasks that are split up. 
+All tasks in milestone 4 are completed, other remaining tasks are moved to milestone 5. 
 
 ### Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
 
