@@ -41,7 +41,7 @@ Allow users to search for locations by keyword, and add them to a dream trip log
 
 Allow users to create and view trips
 
-[gif goes here]
+<img src='https://github.com/bmurdata/wonderhop/blob/main/images/createTrip.gif'>
 
 ### Email notification
 
