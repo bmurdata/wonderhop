@@ -60,7 +60,7 @@ Complete the checklist below detailing each baseline, custom, and stretch featur
 
 👉🏾👉🏾👉🏾 Check off each completed feature below.
 
-- [ ] A subset of pages require the user to log in before accessing the content
+- [X] A subset of pages require the user to log in before accessing the content
   - [x] Users can log in and log out via GitHub OAuth with Passport.js
 - [ ] Restrict available user options dynamically, such as restricting available purchases based on a user's currency
 - [ ] Show a spinner while a page or page element is loading
@@ -77,7 +77,8 @@ Complete the checklist below detailing each baseline, custom, and stretch featur
 
 ### 1. What went well during this unit?
 
-Review of requirements.
+Working on the baseline features, and one stretch feature. 
+
 
 ### 2. What were some challenges your group faced in this unit?
 
@@ -88,7 +89,7 @@ Planning and interaction between frontend and backend development.
 GitHub logins, getting code from tailwind to work, retrofitting existing code to the current project. 
 ### 4. Reflecting on your web development journey so far, how have you grown since the beginning of the course?
 
-We have learned more about Javascript React, and server/client relations. We have also learned the difficulty of deploying an application.
+We have learned more about Javascript React, and server/client relations. We have also learned the difficulty of deploying an application. We have learned it takes a long time to create a full stack application, even in a group. 
 
 ### 5. Looking ahead, what are your goals related to web development, and what steps do you plan to take to achieve them?
 
