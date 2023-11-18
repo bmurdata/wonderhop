@@ -4,8 +4,8 @@ import ActivityBtn from '../components/ActivityBtn';
 import DestinationBtn from '../components/DestinationBtn';
 import './TripDetails.css'
 
-const TripDetails = ({datas, api_url}) => {
-    const [data, setTrips] = useState([]);
+const TripDetails = ({data, api_url}) => {
+    const [trips, setTrips] = useState([]);
   const [user, setUser] = useState([])
 const API_URL='http://localhost:3001'
   useEffect(() => {
@@ -34,7 +34,8 @@ const API_URL='http://localhost:3001'
     const [travelers, setTravelers] = useState([])
 
     useEffect(() => {
-        console.log(data)
+        console.log((data.length))
+   
         const result = data.filter(item => item.id === parseInt(id))[0];
         console.log(result)
         

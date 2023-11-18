@@ -33,5 +33,16 @@ const createTrip = async (req,res)=> {
         res.status(409).json({ error:err.message})
     }
 }
+const deleteTrip=async(req,res)=>{
+    try{
+        const id=parseInt(req.params.id)
+        const results=await pool.query('DELETE FROM savedtrips WHERE id= $1',[id])
+        res.status(200).json(results.rows)
+    }
+    catch(err){
+        res.status(409).json({ error:err.message})
+    }
+}
 
-export default{ getsavedTrips, getsavedTrip, createTrip}
+
+export default{ getsavedTrips, getsavedTrip, createTrip,deleteTrip}

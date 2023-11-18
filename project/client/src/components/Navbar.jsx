@@ -53,8 +53,6 @@ const Navbar = () => {
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>WonderHop.</h1>
       </div>
       <ul className='hidden md:flex'>
-      <li><Link to="/"><button className="headerBtn">Explore Trips</button></Link></li>
-      <li>      <Link to="/destinations"><button className="headerBtn">Explore Destinations</button></Link></li>
       <li>      <Link to="/trip/new"><button className="headerBtn">Create Trip </button></Link></li>
       <li>      <button onClick={logout} className='headerBtn'>Logout</button></li>
       <li><Avatar className='avatar' user={user} /></li>
@@ -77,8 +75,7 @@ const Navbar = () => {
         user && user.id ?
           <div className="header">
             <h1>WonderHop</h1>
-            <Link to="/"><button className="headerBtn">Explore Trips</button></Link>
-            <Link to="/destinations"><button className="headerBtn">Explore Destinations</button></Link>
+
             <Link to="/trip/new"><button className="headerBtn"> + Add Trip </button></Link>
             <button onClick={logout} className='headerBtn'>Logout</button>
             <Avatar className='avatar' user={user} />
@@ -86,13 +83,8 @@ const Navbar = () => {
         : <></>
       }
           <h1>WonderHop.</h1>
-          <li className='border-b'><Link to="/"><button className="headerBtn">Explore Trips</button></Link></li>
-          <li className='border-b'>Destinations</li>
-          <li className='border-b'>Travel</li>
-          <li className='border-b'>View</li>
-          <li className='border-b'>Book</li>
-          <Link to="/"><button className="headerBtn">Explore Trips</button></Link>
-            <Link to="/destinations"><button className="headerBtn">Explore Destinations</button></Link>
+
+
             <Link to="/trip/new"><button className="headerBtn"> + Add Trip </button></Link>
             <button onClick={logout} className='headerBtn'>Logout</button>
             <Avatar className='avatar' user={user} />
