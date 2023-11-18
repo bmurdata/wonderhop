@@ -10,21 +10,24 @@ const ReadTrips = (props) => {
     useEffect(() => {
         setPosts(props.data);
     }, [props]);
-    
+    //posts[0].num_days=1
     return (
         <div className="ReadTrips">
+            <Navbar/>
+            <Hero/>
+            <h2 className='py-4'>View Other Trips</h2>
             {
                 posts && posts.length > 0 ?
                 posts.map((post,index) => 
                    <Card key={post.id} 
                          id={post.id} 
                          title={post.title} 
-                         description={post.description} 
+                         description={post.body} 
                          img_url={post.img_url} 
                          num_days={post.num_days}
-                         start_date={post.start_date}
-                         end_date={post.end_date}
-                         total_cost={post.total_cost} />
+                         start_date={post.startdate}
+                         end_date={post.enddate}
+                         total_cost={post.budget} />
                 ) : <h3 className="noResults">{'No Trips Yet 😞'}</h3>
             }
         </div>  

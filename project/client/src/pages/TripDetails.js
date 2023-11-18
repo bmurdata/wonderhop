@@ -4,16 +4,40 @@ import ActivityBtn from '../components/ActivityBtn';
 import DestinationBtn from '../components/DestinationBtn';
 import './TripDetails.css'
 
-const TripDetails = ({data, api_url}) => {
+const TripDetails = ({datas, api_url}) => {
+    const [data, setTrips] = useState([]);
+  const [user, setUser] = useState([])
+const API_URL='http://localhost:3001'
+  useEffect(() => {
+    const getUser = async () => {
+      const response = await fetch(`${API_URL}/auth/login/success`, { credentials: 'include' } )
+      const json = await response.json()
+      setUser(json.user)
+    }
 
-    const {id} = useParams();
+    const fetchTrips = async () => {
+      const response = await fetch(`${API_URL}/api/trips`)
+      const data = await response.json()
+      setTrips(data)
+      
+    }
+  
+    getUser()
+    fetchTrips()
+  }, []);
+    console.log(useParams().id)
+    const {id} = useParams().id;
+
     const [post, setPost] = useState({id: 0, title: "", description: "", img_url: "", num_days: 0, start_date: "", end_date: "", total_cost: 0.0 })
     const [activities, setActivities] = useState([])
     const [destinations, setDestinations] = useState([])
     const [travelers, setTravelers] = useState([])
 
     useEffect(() => {
+        console.log(data)
         const result = data.filter(item => item.id === parseInt(id))[0];
+        console.log(result)
+        
         setPost({id: parseInt(result.id), title: result.title, description: result.description, img_url: result.img_url, num_days: parseInt(result.num_days), start_date: result.start_date.slice(0,10), end_date: result.end_date.slice(0,10), total_cost: result.total_cost});
 
         const fetchActivities = async () => {

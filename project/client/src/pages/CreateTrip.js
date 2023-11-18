@@ -6,13 +6,14 @@ const CreateTrip = ({user, api_url}) => {
     const [post, setPost] = useState({
         id: 0,
         title: "",
-        description: "",
-        img_url: "",
+        body: "",
+        status: "",
         num_days: 0,
-        start_date: "",
-        end_date: "",
-        total_cost: 0.0,
-        username: user.username
+        startdate: "",
+        enddate: "",
+        budget: 0.0,
+        username: user.username,
+        user_id:user.githubid
     })
     
     const handleChange = (event) => {
@@ -49,13 +50,13 @@ const CreateTrip = ({user, api_url}) => {
                 <input type="text" id="title" name="title" value={post.title} onChange={handleChange}/><br />
                 <br/>
 
-                <label>Description</label><br />
-                <textarea rows="5" cols="50" id="description" name="description" value={post.description} onChange={handleChange}>
+                <label>Notes</label><br />
+                <textarea rows="5" cols="50" id="body" name="body" value={post.body} onChange={handleChange}>
                 </textarea>
                 <br/>
 
-                <label>Image URL </label><br />
-                <input type="text" id="img_url" name="img_url" value={post.img_url} onChange={handleChange}/><br />
+                <label>Status </label><br />
+                <input type="text" id="status" name="status" value={post.status} onChange={handleChange}/><br />
                 <br/>
 
                 <label>Number of Days</label><br />
@@ -63,15 +64,15 @@ const CreateTrip = ({user, api_url}) => {
                 <br/>
 
                 <label>Start Date </label><br />
-                <input type="text" id="start_date" name="start_date" value={post.start_date} onChange={handleChange}/><br />
+                <input type="text" id="startdate" name="startdate" value={post.startdate} onChange={handleChange}/><br />
                 <br/>
 
                 <label>End Date </label><br />
-                <input type="text" id="end_date" name="end_date" value={post.end_date} onChange={handleChange}/><br />
+                <input type="text" id="enddate" name="enddate" value={post.enddate} onChange={handleChange}/><br />
                 <br/>
 
                 <label>Total Cost</label><br />
-                <input type="text" id="total_cost" name="total_cost" value={post.total_cost} onChange={handleChange}/><br />
+                <input type="text" id="budget" name="budget" value={post.budget} onChange={handleChange}/><br />
                 <br/>
 
                 <input type="submit" value="Submit" onClick={createPost} />

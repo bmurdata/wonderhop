@@ -31,6 +31,7 @@ const App = () => {
       const response = await fetch(`${API_URL}/api/trips`)
       const data = await response.json()
       setTrips(data)
+      
     }
   
     getUser()
@@ -97,18 +98,7 @@ const App = () => {
   return ( 
 
     <div className="App">
-      {
-        user && user.id ?
-          <div className="header">
-            <h1>WonderHop</h1>
-            <Link to="/"><button className="headerBtn">Explore Trips</button></Link>
-            <Link to="/destinations"><button className="headerBtn">Explore Destinations</button></Link>
-            <Link to="/trip/new"><button className="headerBtn"> + Add Trip </button></Link>
-            <button onClick={logout} className='headerBtn'>Logout</button>
-            <Avatar className='avatar' user={user} />
-          </div>
-        : <></>
-      }
+      
 
       {element}
     </div>
