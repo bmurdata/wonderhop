@@ -37,9 +37,9 @@ Allow users to search for locations by keyword, and add them to a dream trip log
 
 [gif goes here]
 
-### Share,Edit, and more
+###[x] Share,Edit, and delete
 
-Allow users to save, edit, and share their public trip plans with others, and also keep trip plans to themselves.
+Allow users to create and view trips
 
 [gif goes here]
 
@@ -49,7 +49,7 @@ Allow users to recieve notifications in their emails of trip reminders, and thei
 
 [gif goes here]
 
-### Expense tracking
+###[x] Expense tracking
 
 Allow users to track their budget and split cost if shared with one another. 
 
