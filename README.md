@@ -25,11 +25,11 @@ Backend:
   Node, Express, Railway, location/vacation API.
 ## Features
 
-### User login
+### [x] User login
 
 Allow users to login with their email account to view and edit their trips.
 
-[gif goes here]
+<img src='https://github.com/bmurdata/wonderhop/blob/main/images/login.gif'>
 
 ### Search and Plan
 
