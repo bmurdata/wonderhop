@@ -16,7 +16,7 @@ function App() {
     <>
       <div className='App'>        
         {
-          currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
+          currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Login onFormSwitch={toggleForm} />
         }
     </div>
     </>
